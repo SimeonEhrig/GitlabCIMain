@@ -1,0 +1,4 @@
+test_job1:
+  images: alpine:latest
+  script:
+    - echo "I'm a job"
