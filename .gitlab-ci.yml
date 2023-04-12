@@ -1,5 +1,4 @@
-test_job1:
-  image: alpine:latest
+run_test:
+  image: julia:1.8
   script:
-    - echo "I'm a job"
-    - echo "This is my Test."
+    - julia --project=@. -e 'import Pkg; Pkg.Registry.add(Pkg.RegistrySpec(url="https://github.com/SimeonEhrig/GitLabCIRegistry.git")); Pkg.test(; coverage = true)'
