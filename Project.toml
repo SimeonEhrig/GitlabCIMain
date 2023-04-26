@@ -4,6 +4,7 @@ authors = ["Simeon Ehrig <s.ehrig@hzdr.de> and contributors"]
 version = "1.0.0-DEV"
 
 [deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 GitLabCISub1 = "2df81c4e-c6cd-4631-b325-cacad6d6abac"
 GitLabCISub2 = "0c825e4a-f476-45ea-8667-4d6a1b82536a"
 
