@@ -3,3 +3,4 @@ run_test:
   script:
     # run first jobGenertor test, because the custom registry overwrites the default registry
     - echo "Speed up the CI!"
+    - echo "Do other stuff!"
